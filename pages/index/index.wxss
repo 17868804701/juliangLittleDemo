@@ -1,1 +1,46 @@
-/* pages/index/index.wxss */
+/*顶部tab*/
+.nav {
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 20rpx;
+  border-bottom: 1px solid ghostwhite;
+}
+.body {
+  background-color: white;
+  /* border-top: 1rpx solid #eee; */
+}
+.default {
+  line-height: 90rpx;
+  text-align: center;
+  flex: 1;
+  border-right: 0px solid gainsboro;
+  color: #333;
+}
+.red {
+  line-height: 90rpx;
+  text-align: center;
+  color: #4CAF50;
+  flex: 1;
+  border-right: 0px solid gainsboro;
+  border-bottom: 4px solid #4CAF50;
+}
+.red view {
+  border-bottom: 2px solid #4CAF50;
+}
+.hidden {
+  display: none;
+  text-align: center;
+}
+.title {
+  font-size: 30rpx;
+  border-bottom: 0px solid whitesmoke;
+  background-color: white;
+}
+/* 内容区 */
+.introduce{
+ text-align: center;
+}
+
+

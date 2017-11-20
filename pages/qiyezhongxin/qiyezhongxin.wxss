@@ -10,7 +10,7 @@
 .head text{
  /* position: absolute; */
 margin-left: 145rpx;
-font-size: 34rpx;
+font-size: 31rpx;
 /* font-weight: bold; */
 color: #333;
 }

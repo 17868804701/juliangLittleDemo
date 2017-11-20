@@ -14,7 +14,7 @@
 }
 .item text{
  position: absolute;
- font-size: 32rpx;
+ font-size: 30rpx;
  margin-left: 23rpx;
   color: #333; 
 }
