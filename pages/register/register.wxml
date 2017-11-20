@@ -1,0 +1,23 @@
+<view class="container">
+<view class='item'>
+ <text>公司名称</text>
+ <input placeholder='*请输入公司名称'></input>
+</view>
+<view class='item'>
+ <text>企业税号</text>
+ <input placeholder='*请输入企业税号'></input>
+</view>
+<view class='item'>
+ <text>公司地址</text>
+ <input placeholder='*请输入公司地址'></input>
+</view>
+<view class='item'>
+ <text>联系人</text>
+ <input placeholder='*请输入联系人'></input>
+</view>
+<view class='item'>
+ <text>联系方式</text>
+ <input placeholder='*请输入联系人电话' type='number'></input>
+</view>
+<button class='register'>立即注册</button>
+</view>

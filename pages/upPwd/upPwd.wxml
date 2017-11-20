@@ -1,0 +1,15 @@
+<view class="container">
+<view class='item'>
+ <text>原密码</text>
+ <input placeholder='*请输入原密码'></input>
+</view>
+<view class='item'>
+ <text>新密码</text>
+ <input placeholder='*请输入新密码'></input>
+</view>
+<view class='item'>
+ <text>确认密码</text>
+ <input placeholder='*请再次输入密码'></input>
+</view>
+<button class='update'>提交</button>
+</view>

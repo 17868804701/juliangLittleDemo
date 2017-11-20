@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/qiyezhongxin/qiyezhongxin",
+   "pages/upPwd/upPwd",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+   "selectedColor": "#4CAF50",
+   "borderStyle": "",
+   "list": [
+    {
+     "selectedIconPath": "pages/img/yw1.png",
+     "iconPath": "pages/img/yw2.png",
+     "pagePath": "pages/index/index",
+     "text": "业务服务"
+    },
+    {
+     "selectedIconPath": "pages/img/q1.png",
+     "iconPath": "pages/img/q2.png",
+     "pagePath": "pages/qiyezhongxin/qiyezhongxin",
+     "text": "企业中心"
+    }
+   ]
+  }
+}
