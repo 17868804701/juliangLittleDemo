@@ -35,5 +35,15 @@ Page({
    selected: false,
    selected3: true
   })
+ },
+ pingjia:function(){
+  wx.navigateTo({
+   url: '../pingjia/pingjia',
+  })
+ },
+ orderInfo:function(){
+  wx.navigateTo({
+   url: '../orderInfo/orderInfo',
+  })
  }
 })

@@ -1,4 +1,4 @@
-// pages/shebei/shebei.js
+// pages/orderInfo/orderInfo.js
 Page({
 
   /**
@@ -63,9 +63,15 @@ Page({
   onShareAppMessage: function () {
   
   },
-  add:function(){
+  // 打电话
+  callPhone:function(){
+   wx.makePhoneCall({
+    phoneNumber: '17868804701' //仅为示例，并非真实的电话号码
+   })
+  },
+  tousu:function(){
    wx.navigateTo({
-    url: '../addShebei/addShebei',
+    url: '../tousu/tousu',
    })
   }
 })

@@ -1,4 +1,4 @@
-// pages/shebei/shebei.js
+// pages/tousu/tousu.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  add:function(){
-   wx.navigateTo({
-    url: '../addShebei/addShebei',
-   })
   }
 })

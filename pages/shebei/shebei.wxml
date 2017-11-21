@@ -1,2 +1,18 @@
-<!--pages/shebei/shebei.wxml-->
-<text>设备列表</text>
+<view class='container'>
+<!-- 列表开始 -->
+ <view class='list'>
+  <view class='name'>
+   <text> TCL王牌电视机</text>
+  </view>
+  <view class='info'>
+   <text class='ggxh'>规格型号：<text style='font-weight:bold;color:#4CAF50'>TCL</text></text>
+   <text class='sccj'>生产厂家：<text style='font-weight:bold;color:#4CAF50'>陕西省电视机股份有限公司</text></text>
+   <text class='ccbm'>出厂编码：<text style='font-weight:bold;color:#4CAF50'>98452154HGF51</text></text>
+   <text class='ccsj'>出厂时间：<text style='font-weight:bold;color:#4CAF50'>2017-10-10</text></text>
+   <text class='dj'>等级：<text style='font-weight:bold;color:#4CAF50'>2</text></text>
+  </view>
+ </view>
+<!-- 列表结束 -->
+
+<button class='add_shebei' bindtap='add'>添加设备</button>
+</view>

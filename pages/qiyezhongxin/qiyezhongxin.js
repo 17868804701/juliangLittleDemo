@@ -72,5 +72,10 @@ Page({
    wx.navigateTo({
     url: '../login/login',
    })
+  },
+  shenbao:function(){
+   wx.navigateTo({
+    url: '../shenbao/shenbao',
+   })
   }
 })

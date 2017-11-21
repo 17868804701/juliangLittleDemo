@@ -1,8 +1,13 @@
 {
  "pages": [
-  "pages/shebei/shebei",
   "pages/index/index",
+  "pages/tousu/tousu",
+  "pages/orderInfo/orderInfo",
+  "pages/pingjia/pingjia",
+  "pages/shenbao/shenbao",
   "pages/qiyezhongxin/qiyezhongxin",
+  "pages/addShebei/addShebei",
+  "pages/shebei/shebei",
   "pages/upPwd/upPwd",
   "pages/login/login",
   "pages/register/register",

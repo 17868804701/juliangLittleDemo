@@ -2,30 +2,89 @@
  <!-- 顶部tab切换 -->
  <view class="nav bc_white">
   <view class="{{selected?'red':'default'}} title" bindtap="selected">
-   <view>维修申报</view>
+   <view>待确认</view>
   </view>
   <view class="{{selected1?'red':'default'}} title" bindtap="selected1">
-   <view>维保申报</view>
+   <view>待评价</view>
   </view>
   <view class="{{selected2?'red':'default'}} title" bindtap="selected2">
-   <view>售后申报</view>
+   <view>已完成</view>
   </view>
  </view>
 </view>
 <!-- 内容区域 -->
 <view class="{{selected?'show':'hidden'}}">
+
  <view class="introduce">
-  维修
+  <view class='list' bindtap='orderInfo'>
+   <view class='name'>
+    <text>申报编号：HNG567557687</text>
+    <text style='float:right;margin-right:40rpx;color:#4CAF50;font-size:30rpx'>确认</text>
+   </view>
+   <view class='info'>
+    <text class='ggxh'>规格型号：<text style='font-weight:bold;color:#4CAF50'>TCL</text></text>
+    <text class='sccj'>申报企业：<text style='font-weight:bold;color:#4CAF50'>西安久诺网络技术有限公司</text></text>
+    <text class='ccbm'>出厂编码：<text style='font-weight:bold;color:#4CAF50'>98452154HGF51</text></text>
+    <text class='ccsj'>申报时间：<text style='font-weight:bold;color:#4CAF50'>2017-10-10</text></text>
+    <text class='dj'>类型：<text style='font-weight:bold;color:#4CAF50'>维修</text></text>
+   </view>
+  </view>
+    <view class='list' bindtap='orderInfo'>
+   <view class='name'>
+    <text>申报编号：HNG567557687</text>
+    <text style='float:right;margin-right:40rpx;color:#4CAF50;font-size:30rpx'>确认</text>
+   </view>
+   <view class='info'>
+    <text class='ggxh'>规格型号：<text style='font-weight:bold;color:#4CAF50'>TCL</text></text>
+    <text class='sccj'>申报企业：<text style='font-weight:bold;color:#4CAF50'>西安久诺网络技术有限公司</text></text>
+    <text class='ccbm'>出厂编码：<text style='font-weight:bold;color:#4CAF50'>98452154HGF51</text></text>
+    <text class='ccsj'>申报时间：<text style='font-weight:bold;color:#4CAF50'>2017-10-10</text></text>
+    <text class='dj'>类型：<text style='font-weight:bold;color:#4CAF50'>维修</text></text>
+   </view>
+  </view>
  </view>
+
+
 </view>
 <view class="{{selected1?'show':'hidden'}}">
  <view class="introduce">
-  维保
+
+
+  <view class='list' bindtap='orderInfo'>
+   <view class='name'>
+    <text>申报编号：HNG567557687</text>
+    <text style='float:right;margin-right:40rpx;color:#4CAF50;font-size:30rpx' catchtap='pingjia' >评价</text>
+   </view>
+   <view class='info'>
+    <text class='ggxh'>规格型号：<text style='font-weight:bold;color:#4CAF50'>TCL</text></text>
+    <text class='sccj'>申报企业：<text style='font-weight:bold;color:#4CAF50'>西安久诺网络技术有限公司</text></text>
+    <text class='ccbm'>出厂编码：<text style='font-weight:bold;color:#4CAF50'>98452154HGF51</text></text>
+    <text class='ccsj'>申报时间：<text style='font-weight:bold;color:#4CAF50'>2017-10-10</text></text>
+    <text class='dj'>类型：<text style='font-weight:bold;color:#4CAF50'>维修</text></text>
+   </view>
+  </view>
+
+
  </view>
 </view>
 <view class="{{selected2?'show':'hidden'}}">
  <!--introduce   介绍-->
  <view class="introduce">
-  售后
+  
+    <view class='list' bindtap='orderInfo'>
+   <view class='name'>
+    <text>申报编号：HNG567557687</text>
+    <text style='float:right;margin-right:40rpx;color:#4CAF50;font-size:30rpx'>已完成</text>
+   </view>
+   <view class='info'>
+    <text class='ggxh'>规格型号：<text style='font-weight:bold;color:#4CAF50'>TCL</text></text>
+    <text class='sccj'>申报企业：<text style='font-weight:bold;color:#4CAF50'>西安久诺网络技术有限公司</text></text>
+    <text class='ccbm'>出厂编码：<text style='font-weight:bold;color:#4CAF50'>98452154HGF51</text></text>
+    <text class='ccsj'>申报时间：<text style='font-weight:bold;color:#4CAF50'>2017-10-10</text></text>
+    <text class='dj'>类型：<text style='font-weight:bold;color:#4CAF50'>维修</text></text>
+   </view>
+  </view>
+
+
  </view>
 </view>

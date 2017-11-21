@@ -1,11 +1,13 @@
-// pages/shebei/shebei.js
+// pages/addShebei/addShebei.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+   array: ['请选择设备','电动机', '电视机', '洗衣机', '电冰箱'],
+   index:0,
+   date:'请选择出厂时间'
   },
 
   /**
@@ -22,7 +24,7 @@ Page({
   
   },
 
-  /**
+  /**    
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
@@ -63,9 +65,16 @@ Page({
   onShareAppMessage: function () {
   
   },
-  add:function(){
-   wx.navigateTo({
-    url: '../addShebei/addShebei',
+  bindPickerChange: function (e) {
+   console.log('picker发送选择改变，携带值为', e.detail.value)
+   this.setData({
+    index: e.detail.value
    })
-  }
+  },
+  bindDateChange: function (e) {
+   console.log('picker发送选择改变，携带值为', e.detail.value)
+   this.setData({
+    date: e.detail.value
+   })
+  },
 })

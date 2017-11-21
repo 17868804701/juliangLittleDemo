@@ -1,0 +1,64 @@
+<view class='container'>
+ <view class='wxqyxx'>
+  <text>企业信息</text>
+ </view>
+ <view class='info'>
+  <view class='list'>
+   <text>企业名称</text>
+   <text>西安久诺网络技术有限公司</text>
+  </view>
+  <view class='list'>
+   <text>企业税号</text>
+   <text style='font-weight:bold;color:#4CAF50'>415668GHY14</text>
+  </view>
+  <view class='list'>
+   <text>企业地址</text>
+   <text>陕西西安市西安欧亚学院</text>
+  </view>
+  <view class='list'>
+   <text>联系人</text>
+   <text style='margin-left:130rpx;'>代江平</text>
+  </view>
+  <view class='list' style='border:0'>
+   <text>联系电话</text>
+   <text style='color:blue; text-decoration: underline' bindtap='callPhone'>17868802602</text>
+  </view>
+ </view>
+ <view class='wxqyxx'>
+  <text>维修设备</text>
+ </view>
+ <view class='shebei'>
+  <view class='item'>
+   <text>电视机</text>
+   <text>NO：7987909GH256</text>
+  </view>
+  <view class='shebei_info'>
+   <text>设备描述：屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题</text>
+  </view>
+  <view class='shebei_img'>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+  </view>
+ </view>
+
+  <view class='shebei'>
+  <view class='item'>
+   <text>洗衣机</text>
+   <text>NO：7987909GH256</text>
+  </view>
+  <view class='shebei_info'>
+   <text>设备描述：屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题</text>
+  </view>
+  <view class='shebei_img'>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+  </view>
+ </view>
+ <view id='tousu'>
+  <text class='tousu' bindtap='tousu'>投诉</text>
+ </view>
+</view>
