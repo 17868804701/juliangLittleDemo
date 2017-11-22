@@ -1,8 +1,8 @@
 {
  "pages": [
   "pages/index/index",
-  "pages/tousu/tousu",
   "pages/orderInfo/orderInfo",
+  "pages/tousu/tousu",
   "pages/pingjia/pingjia",
   "pages/shenbao/shenbao",
   "pages/qiyezhongxin/qiyezhongxin",

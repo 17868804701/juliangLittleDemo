@@ -36,12 +36,12 @@ Page({
    selected3: true
   })
  },
- pingjia:function(){
+ pingjia: () => {
   wx.navigateTo({
    url: '../pingjia/pingjia',
   })
  },
- orderInfo:function(){
+ orderInfo: () => {
   wx.navigateTo({
    url: '../orderInfo/orderInfo',
   })

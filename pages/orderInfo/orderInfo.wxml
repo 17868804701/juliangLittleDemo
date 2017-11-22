@@ -2,6 +2,7 @@
  <view class='wxqyxx'>
   <text>企业信息</text>
  </view>
+ <!-- 企业信息开始 -->
  <view class='info'>
   <view class='list'>
    <text>企业名称</text>
@@ -17,13 +18,18 @@
   </view>
   <view class='list'>
    <text>联系人</text>
-   <text style='margin-left:130rpx;'>代江平</text>
+   <text style='margin-left:85rpx;'>代江平</text>
   </view>
-  <view class='list' style='border:0'>
+  <view class='list'>
    <text>联系电话</text>
    <text style='color:blue; text-decoration: underline' bindtap='callPhone'>17868802602</text>
   </view>
+  <view class='list' style='border:0'>
+   <text>维修金额</text>
+   <text style='color:#4CAF50;font-weight:bold' bindtap='callPhone'>￥200.00元</text>
+  </view>
  </view>
+  <!-- 企业信息完 -->
  <view class='wxqyxx'>
   <text>维修设备</text>
  </view>
@@ -32,8 +38,9 @@
    <text>电视机</text>
    <text>NO：7987909GH256</text>
   </view>
+  <!-- 自己设备描述 -->
   <view class='shebei_info'>
-   <text>设备描述：屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题</text>
+   <text>设备描述：屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕</text>
   </view>
   <view class='shebei_img'>
    <image src='../img/head.jpg'></image>
@@ -41,9 +48,20 @@
    <image src='../img/head.jpg'></image>
    <image src='../img/head.jpg'></image>
   </view>
+  <!-- 自己设备描述完 -->
+  <!-- 工程师描述 -->
+  <view class='shebei_info'>
+   <text>工程师描述：屏幕有问题屏幕有问题屏幕有问题屏幕有问题屏幕有问题</text>
+  </view>
+  <view class='shebei_img'>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+   <image src='../img/head.jpg'></image>
+  </view>
+  <!-- 工程师描述完 -->
  </view>
-
-  <view class='shebei'>
+ <view class='shebei'>
   <view class='item'>
    <text>洗衣机</text>
    <text>NO：7987909GH256</text>
@@ -58,6 +76,21 @@
    <image src='../img/head.jpg'></image>
   </view>
  </view>
+
+
+ <!-- 工作照 -->
+ <view class='shebei'>
+  <view class='gongzuozhao'>
+   <view class='shebei_info'>
+    <text>工作照</text>
+   </view>
+   <view class='shebei_img'>
+    <image src='../img/head.jpg'></image>
+    <image src='../img/head.jpg'></image>
+   </view>
+  </view>
+ </view>
+ <!-- 工作照完 -->
  <view id='tousu'>
   <text class='tousu' bindtap='tousu'>投诉</text>
  </view>
