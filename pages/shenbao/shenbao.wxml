@@ -43,6 +43,7 @@
 <text> 添加设备描述 </text>
 </view>
 <textarea class='desc_info' placeholder='请添加设备描述,最多200字' maxlength='200'></textarea>
+<image src='{{item}}' style='width:20%;height:160rpx; margin-left:4%;margin-top:20rpx;' wx:for="{{imgList}}"></image>
 <image src='../img/upload.png' class='upload_icon' bindtap='up'></image>
 <!-- <button >上传</button> -->
 <button class='register'>立即申报</button>

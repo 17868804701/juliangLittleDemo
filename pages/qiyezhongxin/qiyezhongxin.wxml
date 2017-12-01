@@ -15,7 +15,11 @@
   <text>修改密码</text>
   <image src='../img/right.png' class='right1'></image>
  </view>
-
+ <view class='item' bindtap='htManger'>
+  <image src='../img/ht1.png' class='xgmm'></image>
+  <text>合同管理</text>
+  <image src='../img/right.png' class='right1'></image>
+ </view>
   <view class='item' bindtap='shenbao'>
   <image src='../img/ssb.png' class='xgmm'></image>
   <text>立即申报</text>

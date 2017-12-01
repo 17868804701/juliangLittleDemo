@@ -5,7 +5,7 @@ Page({
   hidden: false,
  },
  selected: function (e) {
-  this.setData({
+  this.setData({ 
    selected1: false,
    selected2: false,
    selected3: false,

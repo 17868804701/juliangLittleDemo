@@ -1,11 +1,13 @@
 {
  "pages": [
+  "pages/htManger/htManger",
   "pages/index/index",
+  "pages/qiyezhongxin/qiyezhongxin",
+  "pages/web/web",
+  "pages/shenbao/shenbao",
   "pages/orderInfo/orderInfo",
   "pages/tousu/tousu",
   "pages/pingjia/pingjia",
-  "pages/shenbao/shenbao",
-  "pages/qiyezhongxin/qiyezhongxin",
   "pages/addShebei/addShebei",
   "pages/shebei/shebei",
   "pages/upPwd/upPwd",

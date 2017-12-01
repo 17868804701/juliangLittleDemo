@@ -5,7 +5,7 @@ Page({
   * 页面的初始数据
   */
  data: {
-  array: ['请选择申报类型', '维修', '售后', '维保'],
+  array: ['请选择申报类型', '售后', '维保'],
   array1: ['请选择设备名称', '电视机', '电风扇', '电动机'],
   index: 0,
   index1: 0,
@@ -85,11 +85,21 @@ Page({
    date: e.detail.value
   })
  },
- up:function(){
+ up: function () {
+  var that = this;
   wx.chooseImage({
    success: function (res) {
     var tempFilePaths = res.tempFilePaths
-    console.log(tempFilePaths)
+    if (tempFilePaths.length > 8) {
+     wx.showModal({
+      title: '提示',
+      content: '最多上传8张图片',
+     })
+    } else {
+     that.setData({
+      imgList: tempFilePaths
+     })
+    }
     wx.uploadFile({
      url: 'https://example.weixin.qq.com/upload', //仅为示例，非真实的接口地址
      filePath: tempFilePaths[0],
