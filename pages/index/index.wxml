@@ -1,5 +1,6 @@
 <view class="body">
  <!-- 顶部tab切换 -->
+ <!-- 待处理（可申报）、维修中 -->
  <view class="nav bc_white">
   <view class="{{selected?'red':'default'}} title" bindtap="selected">
    <view>待确认</view>

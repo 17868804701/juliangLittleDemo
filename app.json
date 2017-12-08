@@ -1,7 +1,7 @@
 {
  "pages": [
-  "pages/htManger/htManger",
   "pages/index/index",
+  "pages/htManger/htManger",
   "pages/qiyezhongxin/qiyezhongxin",
   "pages/web/web",
   "pages/shenbao/shenbao",
@@ -37,11 +37,17 @@
     "pagePath": "pages/shebei/shebei",
     "text": "设备列表"
    },
+      {
+       "selectedIconPath": "pages/img/sb1.png",
+       "iconPath": "pages/img/sb.png",
+       "pagePath": "pages/shebei/shebei",
+       "text": "合同管理"
+      },
    {
     "selectedIconPath": "pages/img/q1.png",
     "iconPath": "pages/img/q2.png",
     "pagePath": "pages/qiyezhongxin/qiyezhongxin",
-    "text": "企业中心"
+    "text": "企业信息"
    }
   ]
  }
