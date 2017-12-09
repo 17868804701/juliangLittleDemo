@@ -1,11 +1,13 @@
 {
  "pages": [
   "pages/index/index",
-  "pages/htManger/htManger",
+   "pages/htList/htList",
   "pages/qiyezhongxin/qiyezhongxin",
+   "pages/qiyexinxi/qiyexinxi",
+  "pages/orderInfo/orderInfo",
+  "pages/htManger/htManger",
   "pages/web/web",
   "pages/shenbao/shenbao",
-  "pages/orderInfo/orderInfo",
   "pages/tousu/tousu",
   "pages/pingjia/pingjia",
   "pages/addShebei/addShebei",
@@ -38,9 +40,9 @@
     "text": "设备列表"
    },
       {
-       "selectedIconPath": "pages/img/sb1.png",
-       "iconPath": "pages/img/sb.png",
-       "pagePath": "pages/shebei/shebei",
+       "selectedIconPath": "pages/img/ht1.png",
+       "iconPath": "pages/img/ht.png",
+       "pagePath": "pages/htList/htList",
        "text": "合同管理"
       },
    {

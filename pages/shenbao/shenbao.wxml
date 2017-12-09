@@ -1,12 +1,11 @@
 <view class="container">
-<view class='item'>
- <!-- <text>设备名称</text> -->
+ <!-- <view class='item'>
  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
     <view class="picker" style='color: #333'>
         申报类型 <text style='margin-left:50rpx;'>{{array[index]}}</text>
     </view>
   </picker>
-</view>
+</view>  -->
 <view class='item'>
  <!-- <text>设备名称</text> -->
  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
@@ -46,5 +45,9 @@
 <image src='{{item}}' style='width:20%;height:160rpx; margin-left:4%;margin-top:20rpx;' wx:for="{{imgList}}"></image>
 <image src='../img/upload.png' class='upload_icon' bindtap='up'></image>
 <!-- <button >上传</button> -->
-<button class='register'>立即申报</button>
+<view class='btn'>
+<button class='register'>保存</button>
+<button class='register'>继续添加</button>
+</view>
+
 </view>

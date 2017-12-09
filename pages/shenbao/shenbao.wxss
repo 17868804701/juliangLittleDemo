@@ -21,13 +21,11 @@
 .register{
  height: 80rpx;
  line-height: 80rpx;
- width: 90%;
  border: 0;
  font-size: 30rpx;
  background: #4CAF50;
  color: white;
  margin-top: 45rpx;
- margin-left: 5%;
  margin-bottom: 40rpx;
 }
 picker{
@@ -54,4 +52,12 @@ picker{
  width: 160rpx;
  height: 160rpx;
  margin-left: 2.5%;
+}
+.btn button{
+  width: 30%;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  
 }

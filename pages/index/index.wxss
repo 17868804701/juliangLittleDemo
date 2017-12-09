@@ -105,4 +105,13 @@ font-size: 25rpx;
  margin-top: 40rpx;
  margin-bottom: 40rpx;
 }
+.shenbao{
+  width: 60%;
+  height: 80rpx;
+  background: #4CAF50;
+  color: white;
+  line-height: 80rpx;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+}
 

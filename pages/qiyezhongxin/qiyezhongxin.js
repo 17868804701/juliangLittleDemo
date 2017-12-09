@@ -82,5 +82,15 @@ Page({
   wx.navigateTo({
    url: '../htManger/htManger',
   })
+ },
+ qiyexinxi:function(){
+   wx.navigateTo({
+     url: '../qiyexinxi/qiyexinxi',
+   })
+ },
+ call:function(){
+   wx.makePhoneCall({
+     phoneNumber: '17868802602' //仅为示例，并非真实的电话号码
+   })
  }
 })

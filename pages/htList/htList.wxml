@@ -1,0 +1,32 @@
+<view class='container'>
+  <view class='list' bindtap='htManger'>
+    <image src='../img/ht_icon.png'></image>
+    <text class='name'>西安久诺网络技术有限公司</text>
+    <text class='no'>合同编号:78892789HUJ</text>
+    <text class='fuzeren'>负责人:代江平</text>
+  </view>
+    <view class='list' bindtap='htManger'>
+    <image src='../img/ht_icon.png'></image>
+    <text class='name'>西安久诺网络技术有限公司</text>
+    <text class='no'>合同编号:78892789HUJ</text>
+    <text class='fuzeren'>负责人:代江平</text>
+  </view>
+    <view class='list' bindtap='htManger'>
+    <image src='../img/ht_icon.png'></image>
+    <text class='name'>西安久诺网络技术有限公司</text>
+    <text class='no'>合同编号:78892789HUJ</text>
+    <text class='fuzeren'>负责人:代江平</text>
+  </view>
+    <view class='list' bindtap='htManger'>
+    <image src='../img/ht_icon.png'></image>
+    <text class='name'>西安久诺网络技术有限公司</text>
+    <text class='no'>合同编号:78892789HUJ</text>
+    <text class='fuzeren'>负责人:代江平</text>
+  </view>
+    <view class='list' bindtap='htManger'>
+    <image src='../img/ht_icon.png'></image>
+    <text class='name'>西安久诺网络技术有限公司</text>
+    <text class='no'>合同编号:78892789HUJ</text>
+    <text class='fuzeren'>负责人:代江平</text>
+  </view>
+</view>

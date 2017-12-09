@@ -9,6 +9,7 @@ Page({
    selected1: false,
    selected2: false,
    selected3: false,
+   selected4: false,
    selected: true
   })
  },
@@ -17,6 +18,7 @@ Page({
    selected: false,
    selected2: false,
    selected3: false,
+   selected4: false,
    selected1: true
   })
  },
@@ -25,6 +27,7 @@ Page({
    selected: false,
    selected1: false,
    selected3: false,
+   selected4: false,
    selected2: true
   })
  },
@@ -33,8 +36,18 @@ Page({
    selected2: false,
    selected1: false,
    selected: false,
+   selected4: false,
    selected3: true
   })
+ },
+ selected4: function (e) {
+   this.setData({
+     selected2: false,
+     selected1: false,
+     selected: false,
+     selected3: false,
+     selected4: true
+   })
  },
  pingjia: () => {
   wx.navigateTo({
@@ -45,5 +58,10 @@ Page({
   wx.navigateTo({
    url: '../orderInfo/orderInfo',
   })
+ },
+ shenbao:function(){
+wx.navigateTo({
+  url: '../shenbao/shenbao',
+})
  }
 })
